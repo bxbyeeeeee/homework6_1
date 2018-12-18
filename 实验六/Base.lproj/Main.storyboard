@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="实验六" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Kfv-Fw-zQV">
+                                <rect key="frame" x="0.0" y="284.5" width="375" height="118"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qXp-dA-9Wd">
+                                        <rect key="frame" x="0.0" y="0.0" width="118.5" height="118"/>
+                                        <color key="backgroundColor" red="1" green="0.85072296219999999" blue="0.90035870949999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="qXp-dA-9Wd" secondAttribute="height" multiplier="1:1" id="KrR-lU-X9d"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TvI-F9-Vxj">
+                                        <rect key="frame" x="128.5" y="0.0" width="118" height="118"/>
+                                        <color key="backgroundColor" red="0.00063372483510000001" green="0.44587920980000001" blue="0.16915704679999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iGf-CS-aPL">
+                                        <rect key="frame" x="256.5" y="0.0" width="118.5" height="118"/>
+                                        <color key="backgroundColor" red="0.1614085136" green="0.4897056038" blue="0.80867470850000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Kfv-Fw-zQV" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="fNF-kN-34c"/>
+                            <constraint firstItem="Kfv-Fw-zQV" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="sdq-Jc-yaQ"/>
+                            <constraint firstItem="Kfv-Fw-zQV" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vt7-0B-5Ve"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
